@@ -37,7 +37,9 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <h1/> WILLIAM BURNS
+          <h>
+            WILLIAM BURNS
+          </h>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

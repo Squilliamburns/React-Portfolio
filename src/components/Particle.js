@@ -15,17 +15,30 @@ function Particle() {
             },
             onHover: {
               enable: true,
-              mode: "repulse",
+              mode: "grab",
+              parallax: {
+                enable: true,
+                force: 60,
+                smooth: 10
+              }
             },
             resize: true,
           },
           modes: {
-            push: {
-              quantity: 4,
+            connect: {
+              distance: 80,
+              links: {
+                opacity: 0.5
+              },
+              radius: 60
             },
-            repulse: {
-              distance: 100,
-              duration: 0.4,
+            grab: {
+              distance: 300,
+              links: {
+                blink: false,
+                consent: false,
+                opacity: 1
+              }
             },
           },
         },
