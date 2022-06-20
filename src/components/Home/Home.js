@@ -26,13 +26,19 @@ function Home() {
             </Col>
           </Row>
           <Row>
-          <div style={{display: 'flex', justifyContent: 'center', padding: 175}}>
-            <div class="scroll-downs" >
-              <div class="mousey">
-                <div class="scroller"></div>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                padding: 175,
+              }}
+            >
+              <div className="scroll-downs">
+                <div className="mousey">
+                  <div className="scroller"></div>
+                </div>
               </div>
             </div>
-          </div>
           </Row>
         </Container>
       </Container>

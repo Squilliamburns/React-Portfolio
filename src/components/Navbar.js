@@ -36,11 +36,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <h>
-            WILLIAM BURNS
-          </h>
-        </Navbar.Brand>
+        <Navbar.Brand href="/" className="d-flex" /> William Burns
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
@@ -65,7 +61,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={{ marginBottom: "2px" }} /> Skills
               </Nav.Link>
             </Nav.Item>
 
